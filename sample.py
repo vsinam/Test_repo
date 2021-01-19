@@ -1,8 +1,9 @@
 print("hello this is my sample file")
 age = int(input("enter your age"))
-if age >= 60:
-    print("you are senier citizen")
-elif age >=18:
-    print("you are a adult")
-else:
-    print("You are a kid")
+def Age_calculator(age):
+    if age >= 60:
+       return "you are senier citizen"
+    elif age >=18:
+        return "you are a adult"
+    else:
+        return "You are a kid"
